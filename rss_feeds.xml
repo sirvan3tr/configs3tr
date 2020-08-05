@@ -33,14 +33,7 @@
 	</outline>
 
 	<outline text="Cyber" title="Cyber">
-		<outline
-        text="AlienVault Blogs"
-        title="AlienVault Blogs"
-        description=""
-        type="rss"
-        version="RSS"
-        htmlUrl="https://cybersecurity.att.com/blogs"
-        xmlUrl="http://feeds.feedblitz.com/alienvault-blogs&amp;x=1"/>
+		<outline text="AlienVault Blogs" title="AlienVault Blogs" description="" type="rss" version="RSS" htmlUrl="https://cybersecurity.att.com/blogs" xmlUrl="http://feeds.feedblitz.com/alienvault-blogs&amp;x=1"/>
 		<outline text="CISA Current Activity" title="CISA Current Activity" description="" type="rss" version="RSS" htmlUrl="https://us-cert.cisa.gov/" xmlUrl="http://www.us-cert.gov/current/index.rdf"/>
 		<outline text="CSO Online" title="CSO Online" description="" type="rss" version="RSS" htmlUrl="https://www.csoonline.com/" xmlUrl="http://www.csoonline.com/index.rss"/>
 		<outline text="CyberPunk Network" title="CyberPunk Network" description="" type="rss" version="RSS" htmlUrl="http://n0where.net/" xmlUrl="http://createfeed.fivefilters.org/extract.php?url=n0where.net&amp;in_id_or_class=&amp;url_contains="/>
@@ -69,59 +62,31 @@
 		<outline text="Threatpost" title="Threatpost" description="" type="rss" version="RSS" htmlUrl="https://threatpost.com/" xmlUrl="http://threatpost.com/feed"/>
 		<outline text="zerosum0x0" title="zerosum0x0" description="" type="rss" version="RSS" htmlUrl="https://zerosum0x0.blogspot.com/" xmlUrl="http://zerosum0x0.blogspot.com/feeds/posts/default"/>
 	</outline>
-    <!-- RESEARCH -->
-    <outline text="Research" title="Research">
-        <outline
-        text="Microsoft Research"
-        title="Microsoft Research"
-        description=""
-        type="rss"
-        version="RSS"
-        htmlUrl="https://www.microsoft.com/en-us/research"
-        xmlUrl="https://www.microsoft.com/en-us/research/feed"/>
-        <outline
-        text="Google AI Research"
-        title="Google AI Research"
-        description=""
-        type="rss"
-        version="RSS"
-        htmlUrl="https://ai.googleblog.com/"
-        xmlUrl="http://googleaiblog.blogspot.com/atom.xml"/>
-    </outline>
-    <!-- Recommended Cybersecurity Feeds-->
-    <outline text="Top Cyber and Security Feeds" title="Top Cyber and Security Feeds">
-        <outline text="Microsoft Security" title="Microsoft Security" description="" type="rss" version="RSS" htmlUrl="https://www.microsoft.com/security/blog" xmlUrl="http://blogs.technet.com/mmpc/rss.xml"/>
-        <outline text="ZDNet | security RSS" title="ZDNet | security RSS" description="" type="rss" version="RSS" htmlUrl="https://www.zdnet.com/" xmlUrl="http://www.zdnet.com/blog/security/rss"/>
-        <outline
-        text="National Cyber Security Centre"
-        title="National Cyber Security Centre"
-        description=""
-        type="rss"
-        version="RSS"
-        htmlUrl="https://www.ncsc.gov.uk"
-        xmlUrl="https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml"/>
-        <outline
-        text="Google Security Blog"
-        title="Google Security Blog"
-        description=""
-        type="rss"
-        version="RSS"
-        htmlUrl="https://security.googleblog.com"
-        xmlUrl="https://googleonlinesecurity.blogspot.com/atom.xml"/>
-        <outline text="IT Security Guru " title="IT Security Guru " description="" type="rss" version="RSS" htmlUrl="https://www.itsecurityguru.org/" xmlUrl="http://itsecurityguru.org/feed/"/>
-        <outline title="Daniel Miessler" text="Daniel Miessler" xmlUrl='https://danielmiessler.com/feed' />
-        <outline title="Graham" text="Graham" xmlUrl='https://grahamcluley.com/feed' />
+  <!-- RESEARCH -->
+  <outline text="Research" title="Research">
+    <outline text="Microsoft Research" title="Microsoft Research" description="" type="rss" version="RSS" htmlUrl="https://www.microsoft.com/en-us/research" xmlUrl="https://www.microsoft.com/en-us/research/feed"/>
+    <outline text="Google AI Research" title="Google AI Research" description="" type="rss" version="RSS" htmlUrl="https://ai.googleblog.com/" xmlUrl="http://googleaiblog.blogspot.com/atom.xml"/>
+  </outline>
+  <!-- Recommended Cybersecurity Feeds-->
+  <outline text="Top Cyber and Security Feeds" title="Top Cyber and Security Feeds">
+    <outline text="Microsoft Security" title="Microsoft Security" description="" type="rss" version="RSS" htmlUrl="https://www.microsoft.com/security/blog" xmlUrl="http://blogs.technet.com/mmpc/rss.xml"/>
+    <outline text="ZDNet | security RSS" title="ZDNet | security RSS" description="" type="rss" version="RSS" htmlUrl="https://www.zdnet.com/" xmlUrl="http://www.zdnet.com/blog/security/rss"/>
+    <outline text="National Cyber Security Centre" title="National Cyber Security Centre" description="" type="rss" version="RSS" htmlUrl="https://www.ncsc.gov.uk" xmlUrl="https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml"/>
+    <outline text="Google Security Blog" title="Google Security Blog" description="" type="rss" version="RSS" htmlUrl="https://security.googleblog.com" xmlUrl="https://googleonlinesecurity.blogspot.com/atom.xml"/>
+    <outline text="IT Security Guru " title="IT Security Guru " description="" type="rss" version="RSS" htmlUrl="https://www.itsecurityguru.org/" xmlUrl="http://itsecurityguru.org/feed/"/>
+    <outline title="Daniel Miessler" text="Daniel Miessler" xmlUrl='https://danielmiessler.com/feed' />
+    <outline title="Graham" text="Graham" xmlUrl='https://grahamcluley.com/feed' />
 		<outline text="SecurityWeek" title="SecurityWeek" description="" type="rss" version="RSS" htmlUrl="https://www.securityweek.com/" xmlUrl="http://feeds.feedburner.com/Securityweek"/>
 		<outline text="The Hacker News" title="The Hacker News" description="" type="rss" version="RSS" htmlUrl="https://thehackernews.com/" xmlUrl="http://thehackernews.com/feeds/posts/default"/>
-        <outline title="Tripwire" text="Tripwire" xmlUrl='https://www.tripwire.com/state-of-security/feed' />
-        <outline title="Troyhunt" text="Troyhunt" xmlUrl='https://www.troyhunt.com/rss' />
-        <outline title="Last watchdog" text="Last watchdog" xmlUrl='https://www.lastwatchdog.com/feed' />
-        <outline text="Schneier on Security" title="Schneier on Security" description="" type="rss" version="RSS" htmlUrl="https://www.schneier.com/blog/" xmlUrl="http://www.schneier.com/blog/index.rdf"/>
-        <outline title="Krebs on Security" text="Krebs on Security" xmlUrl='https://krebsonsecurity.com/feed' />
-        <outline title="Naked Security" text="Naked Security" xmlUrl='https://nakedsecurity.sophos.com/feed' />
-        <outline title="Tao Security" text="Tao Security" xmlUrl='https://taosecurity.blogspot.com/feeds/posts/default' />
-    </outline>
-    <!-- Programming -->    
+    <outline title="Tripwire" text="Tripwire" xmlUrl='https://www.tripwire.com/state-of-security/feed' />
+    <outline title="Troyhunt" text="Troyhunt" xmlUrl='https://www.troyhunt.com/rss' />
+    <outline title="Last watchdog" text="Last watchdog" xmlUrl='https://www.lastwatchdog.com/feed' />
+    <outline text="Schneier on Security" title="Schneier on Security" description="" type="rss" version="RSS" htmlUrl="https://www.schneier.com/blog/" xmlUrl="http://www.schneier.com/blog/index.rdf"/>
+    <outline title="Krebs on Security" text="Krebs on Security" xmlUrl='https://krebsonsecurity.com/feed' />
+    <outline title="Naked Security" text="Naked Security" xmlUrl='https://nakedsecurity.sophos.com/feed' />
+    <outline title="Tao Security" text="Tao Security" xmlUrl='https://taosecurity.blogspot.com/feeds/posts/default' />
+  </outline>
+  <!-- Programming -->    
 	<outline text="Programming" title="Programming">
 		<outline text="Dropbox Tech Blog" title="Dropbox Tech Blog" description="" type="rss" version="RSS" htmlUrl="https://dropboxtechblog.wordpress.com/" xmlUrl="https://tech.dropbox.com/feed/"/>
 		<outline text="Engineering – The GitHub Blog" title="Engineering – The GitHub Blog" description="" type="rss" version="RSS" htmlUrl="https://github.blog/" xmlUrl="http://githubengineering.com/atom.xml"/>
