@@ -1,67 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="1.1">
-	<head>
-		<title>RSS Feed 3TR</title>
-	</head>
+  <head>
+    <title>RSS Feed 3TR</title>
+  </head>
 <body>
-	<outline text="Crypto and blockchain" title="Crypto and blockchain">
-		<outline text="99 Bitcoins" title="99 Bitcoins" description="" type="rss" version="RSS" htmlUrl="https://99bitcoins.com/" xmlUrl="http://bitcoinexaminer.org/feed/"/>
-		<outline text="allcoinsnews.com" title="allcoinsnews.com" description="" type="rss" version="RSS" htmlUrl="http://allcoinsnews.com/" xmlUrl="http://allcoinsnews.com/feed/"/>
-		<outline text="Andreas M. Antonopoulos" title="Andreas M. Antonopoulos" description="" type="rss" version="RSS" htmlUrl="https://aantonop.com/" xmlUrl="http://antonopoulos.com/feed/"/>
-		<outline text="Bitcoin Magazine" title="Bitcoin Magazine" description="" type="rss" version="RSS" htmlUrl="https://bitcoinmagazine.com/" xmlUrl="http://feeds.feedburner.com/BitcoinMagazine"/>
-		<outline text="Bitcoin Trading Ideas, Analysis" title="Bitcoin Trading Ideas, Analysis" description="" type="rss" version="RSS" htmlUrl="https://btctrading.wordpress.com/" xmlUrl="http://btctrading.wordpress.com/feed/"/>
-		<outline text="Bitcoin Warrior" title="Bitcoin Warrior" description="" type="rss" version="RSS" htmlUrl="https://bitcoinwarrior.net/" xmlUrl="http://bitcoinwarrior.net/feed/"/>
-		<outline text="Bitcoinist" title="Bitcoinist" description="" type="rss" version="RSS" htmlUrl="https://bitcoinist.com/" xmlUrl="http://bitcoinist.net/feed/"/>
-		<outline text="Blockchain News, Opinion, TV and Jobs" title="Blockchain News, Opinion, TV and Jobs" description="" type="rss" version="RSS" htmlUrl="https://www.the-blockchain.com/" xmlUrl="http://www.the-blockchain.com/feed/"/>
-		<outline text="BTCMANAGER" title="BTCMANAGER" description="" type="rss" version="RSS" htmlUrl="https://btcmanager.com/" xmlUrl="https://btcmanager.com/feed/"/>
-		<outline text="Coin Journal" title="Coin Journal" description="" type="rss" version="RSS" htmlUrl="https://coinjournal.net/" xmlUrl="http://feeds.feedburner.com/coinjournal"/>
-		<outline text="CoinCentral" title="CoinCentral" description="" type="rss" version="RSS" htmlUrl="https://coincentral.com/" xmlUrl="https://coincentral.com/feed/"/>
-		<outline text="CoinDesk" title="CoinDesk" description="" type="rss" version="RSS" htmlUrl="https://www.coindesk.com/" xmlUrl="http://feeds.feedburner.com/CoinDesk"/>
-		<outline text="ConsenSys Media - Medium" title="ConsenSys Media - Medium" description="" type="rss" version="RSS" htmlUrl="https://media.consensys.net?source=rss----3018c972aab8---4/" xmlUrl="https://media.consensys.net/feed/"/>
-		<outline text="Crypto Insider" title="Crypto Insider" description="" type="rss" version="RSS" htmlUrl="https://cryptoinsider.media/" xmlUrl="https://cryptoinsider.com/feed/"/>
-		<outline text="CryptoCurrency – Finance Magnates | Financial and business news" title="CryptoCurrency – Finance Magnates | Financial and business news" description="" type="rss" version="RSS" htmlUrl="https://www.financemagnates.com/" xmlUrl="http://www.financemagnates.com/cryptocurrency/feed/"/>
-		<outline text="CryptoNinjas" title="CryptoNinjas" description="" type="rss" version="RSS" htmlUrl="https://www.cryptoninjas.net/" xmlUrl="https://www.cryptoninjas.net/feed/"/>
-		<outline text="Diginomics" title="Diginomics" description="" type="rss" version="RSS" htmlUrl="https://diginomics.com/" xmlUrl="http://diginomics.com/feed/"/>
-		<outline text="Ethereum World News" title="Ethereum World News" description="" type="rss" version="RSS" htmlUrl="https://ethereumworldnews.com/" xmlUrl="http://ethereumworldnews.com/feed/"/>
-		<outline text="Hyperledger" title="Hyperledger" description="" type="rss" version="RSS" htmlUrl="https://www.hyperledger.org/" xmlUrl="https://www.hyperledger.org/feed"/>
-		<outline text="Monero" title="Monero" description="" type="rss" version="RSS" htmlUrl="https://www.getmonero.org/" xmlUrl="https://getmonero.org/feed.xml"/>
-		<outline text="Ripple" title="Ripple" description="" type="rss" version="RSS" htmlUrl="https://ripple.com/" xmlUrl="https://ripple.com/feed/"/>
-		<outline text="The Coinbase " title="The Coinbase " description="" type="rss" version="RSS" htmlUrl="https://blog.coinbase.com?source=rss----c114225aeaf7---4/" xmlUrl="http://blog.coinbase.com/rss"/>
-		<outline text="The Monetary Future" title="The Monetary Future" description="" type="rss" version="RSS" htmlUrl="http://themonetaryfuture.blogspot.com/" xmlUrl="http://themonetaryfuture.blogspot.com/feeds/posts/default"/>
-		<outline text="TradeBlock" title="TradeBlock" description="" type="rss" version="RSS" htmlUrl="https://research.tradeblock.com/" xmlUrl="http://thegenesisblock.com/feed/"/>
-		<outline text="Vitalik Buterin's website" title="Vitalik Buterin's website" description="" type="rss" version="RSS" htmlUrl="https://vitalik.ca/" xmlUrl="http://vitalik.ca/feed.xml"/>
-	</outline>
-
-	<outline text="Cyber" title="Cyber">
-		<outline text="AlienVault Blogs" title="AlienVault Blogs" description="" type="rss" version="RSS" htmlUrl="https://cybersecurity.att.com/blogs" xmlUrl="http://feeds.feedblitz.com/alienvault-blogs&amp;x=1"/>
-		<outline text="CISA Current Activity" title="CISA Current Activity" description="" type="rss" version="RSS" htmlUrl="https://us-cert.cisa.gov/" xmlUrl="http://www.us-cert.gov/current/index.rdf"/>
-		<outline text="CSO Online" title="CSO Online" description="" type="rss" version="RSS" htmlUrl="https://www.csoonline.com/" xmlUrl="http://www.csoonline.com/index.rss"/>
-		<outline text="CyberPunk Network" title="CyberPunk Network" description="" type="rss" version="RSS" htmlUrl="http://n0where.net/" xmlUrl="http://createfeed.fivefilters.org/extract.php?url=n0where.net&amp;in_id_or_class=&amp;url_contains="/>
-		<outline text="Dark Reading" title="Dark Reading" description="" type="rss" version="RSS" htmlUrl="https://www.darkreading.com/" xmlUrl="http://www.darkreading.com/rss/all.xml"/>
-		<outline text="Darknet" title="Darknet" description="" type="rss" version="RSS" htmlUrl="https://www.darknet.org.uk/" xmlUrl="http://feeds.feedburner.com/darknethackers"/>
-		<outline text="DataBreaches.net" title="DataBreaches.net" description="" type="rss" version="RSS" htmlUrl="https://www.databreaches.net/" xmlUrl="http://feeds.feedburner.com/OfficeOfInadequateSecurity"/>
-		<outline text="Fire Eye Threat Research " title="Fire Eye Threat Research " description="" type="rss" version="RSS" htmlUrl="http://www.fireeye.com/blog/threat-research.html" xmlUrl="http://www.fireeye.com/blog/feed"/>
-		<outline text="Future of Privacy Forum" title="Future of Privacy Forum" description="" type="rss" version="RSS" htmlUrl="https://fpf.org/" xmlUrl="http://www.futureofprivacy.org/feed/"/>
-		<outline text="Google Online Security Blog" title="Google Online Security Blog" description="" type="rss" version="RSS" htmlUrl="http://security.googleblog.com/" xmlUrl="http://googleonlinesecurity.blogspot.com/atom.xml"/>
-		<outline text="Infosec Resources" title="Infosec Resources" description="" type="rss" version="RSS" htmlUrl="https://resources.infosecinstitute.com/" xmlUrl="http://feeds.feedburner.com/infosecResources"/>
-		<outline text="Kaspersky official blog" title="Kaspersky official blog" description="" type="rss" version="RSS" htmlUrl="https://www.kaspersky.com/blog" xmlUrl="http://blog.kaspersky.com/feed/"/>
-		<outline text="Krebs on Security" title="Krebs on Security" description="" type="rss" version="RSS" htmlUrl="https://krebsonsecurity.com/" xmlUrl="http://krebsonsecurity.com/feed/"/>
-		<outline text="Malware Must Die!" title="Malware Must Die!" description="" type="rss" version="RSS" htmlUrl="https://blog.malwaremustdie.org/" xmlUrl="http://malwaremustdie.blogspot.com/feeds/posts/default"/>
-		<outline text="Malware-Traffic-Analysis.net - Blog Entries" title="Malware-Traffic-Analysis.net - Blog Entries" description="" type="rss" version="RSS" htmlUrl="https://www.malware-traffic-analysis.net/index.html" xmlUrl="http://www.malware-traffic-analysis.net/blog-entries.rss"/>
-		<outline text="Malwarebytes Labs" title="Malwarebytes Labs" description="" type="rss" version="RSS" htmlUrl="https://blog.malwarebytes.com/" xmlUrl="http://blog.malwarebytes.org/feed/"/>
-		<outline text="Microsoft Security Response Center" title="Microsoft Security Response Center" description="" type="rss" version="RSS" htmlUrl="https://msrc-blog.microsoft.com/" xmlUrl="http://blogs.technet.com/msrc/rss.xml"/>
-		<outline text="Naked Security" title="Naked Security" description="" type="rss" version="RSS" htmlUrl="https://nakedsecurity.sophos.com/" xmlUrl="http://nakedsecurity.sophos.com/feed/"/>
-		<outline text="Palo Alto Networks Blog" title="Palo Alto Networks Blog" description="" type="rss" version="RSS" htmlUrl="https://blog.paloaltonetworks.com/" xmlUrl="http://researchcenter.paloaltonetworks.com/feed/"/>
-		<outline text="Privacy &amp; Information Security Law Blog" title="Privacy &amp; Information Security Law Blog" description="" type="rss" version="RSS" htmlUrl="https://www.huntonprivacyblog.com/" xmlUrl="http://www.huntonprivacyblog.com/feed/"/>
-		<outline text="Privacy | The Guardian" title="Privacy | The Guardian" description="" type="rss" version="RSS" htmlUrl="https://www.theguardian.com/world/privacy" xmlUrl="http://www.guardian.co.uk/world/privacy/rss"/>
-		<outline text="Project Zero" title="Project Zero" description="" type="rss" version="RSS" htmlUrl="https://googleprojectzero.blogspot.com/" xmlUrl="http://googleprojectzero.blogspot.com/feeds/posts/default"/>
-		<outline text="ProtonMail Blog" title="ProtonMail Blog" description="" type="rss" version="RSS" htmlUrl="https://protonmail.com/blog" xmlUrl="https://protonmail.ch/blog/feed/"/>
-		<outline text="SANS Internet Storm Center, InfoCON: green" title="SANS Internet Storm Center, InfoCON: green" description="" type="rss" version="RSS" htmlUrl="https://isc.sans.edu/" xmlUrl="http://iscxml.sans.org/rssfeed.xml"/>
-		<outline text="Security – Cisco Blogs" title="Security – Cisco Blogs" description="" type="rss" version="RSS" htmlUrl="https://blogs.cisco.com/" xmlUrl="http://blogs.cisco.com/rss/security/"/>
-		<outline text="The Register – Security" title="The Register – Security" description="" type="rss" version="RSS" htmlUrl="https://www.theregister.com/security/" xmlUrl="http://www.theregister.co.uk/security/headlines.atom"/>
-		<outline text="Threatpost" title="Threatpost" description="" type="rss" version="RSS" htmlUrl="https://threatpost.com/" xmlUrl="http://threatpost.com/feed"/>
-		<outline text="zerosum0x0" title="zerosum0x0" description="" type="rss" version="RSS" htmlUrl="https://zerosum0x0.blogspot.com/" xmlUrl="http://zerosum0x0.blogspot.com/feeds/posts/default"/>
-	</outline>
+  <outline text="Crypto and blockchain" title="Crypto and blockchain">
+    <outline text="99 Bitcoins" title="99 Bitcoins" description="" type="rss" version="RSS" htmlUrl="https://99bitcoins.com/" xmlUrl="http://bitcoinexaminer.org/feed/"/>
+    <outline text="allcoinsnews.com" title="allcoinsnews.com" description="" type="rss" version="RSS" htmlUrl="http://allcoinsnews.com/" xmlUrl="http://allcoinsnews.com/feed/"/>
+    <outline text="Andreas M. Antonopoulos" title="Andreas M. Antonopoulos" description="" type="rss" version="RSS" htmlUrl="https://aantonop.com/" xmlUrl="http://antonopoulos.com/feed/"/>
+    <outline text="Bitcoin Magazine" title="Bitcoin Magazine" description="" type="rss" version="RSS" htmlUrl="https://bitcoinmagazine.com/" xmlUrl="http://feeds.feedburner.com/BitcoinMagazine"/>
+    <outline text="Bitcoin Trading Ideas, Analysis" title="Bitcoin Trading Ideas, Analysis" description="" type="rss" version="RSS" htmlUrl="https://btctrading.wordpress.com/" xmlUrl="http://btctrading.wordpress.com/feed/"/>
+    <outline text="Bitcoin Warrior" title="Bitcoin Warrior" description="" type="rss" version="RSS" htmlUrl="https://bitcoinwarrior.net/" xmlUrl="http://bitcoinwarrior.net/feed/"/>
+    <outline text="Bitcoinist" title="Bitcoinist" description="" type="rss" version="RSS" htmlUrl="https://bitcoinist.com/" xmlUrl="http://bitcoinist.net/feed/"/>
+    <outline text="Blockchain News, Opinion, TV and Jobs" title="Blockchain News, Opinion, TV and Jobs" description="" type="rss" version="RSS" htmlUrl="https://www.the-blockchain.com/" xmlUrl="http://www.the-blockchain.com/feed/"/>
+    <outline text="BTCMANAGER" title="BTCMANAGER" description="" type="rss" version="RSS" htmlUrl="https://btcmanager.com/" xmlUrl="https://btcmanager.com/feed/"/>
+    <outline text="Coin Journal" title="Coin Journal" description="" type="rss" version="RSS" htmlUrl="https://coinjournal.net/" xmlUrl="http://feeds.feedburner.com/coinjournal"/>
+    <outline text="CoinCentral" title="CoinCentral" description="" type="rss" version="RSS" htmlUrl="https://coincentral.com/" xmlUrl="https://coincentral.com/feed/"/>
+    <outline text="CoinDesk" title="CoinDesk" description="" type="rss" version="RSS" htmlUrl="https://www.coindesk.com/" xmlUrl="http://feeds.feedburner.com/CoinDesk"/>
+    <outline text="ConsenSys Media - Medium" title="ConsenSys Media - Medium" description="" type="rss" version="RSS" htmlUrl="https://media.consensys.net?source=rss----3018c972aab8---4/" xmlUrl="https://media.consensys.net/feed/"/>
+    <outline text="Crypto Insider" title="Crypto Insider" description="" type="rss" version="RSS" htmlUrl="https://cryptoinsider.media/" xmlUrl="https://cryptoinsider.com/feed/"/>
+    <outline text="CryptoCurrency – Finance Magnates | Financial and business news" title="CryptoCurrency – Finance Magnates | Financial and business news" description="" type="rss" version="RSS" htmlUrl="https://www.financemagnates.com/" xmlUrl="http://www.financemagnates.com/cryptocurrency/feed/"/>
+    <outline text="CryptoNinjas" title="CryptoNinjas" description="" type="rss" version="RSS" htmlUrl="https://www.cryptoninjas.net/" xmlUrl="https://www.cryptoninjas.net/feed/"/>
+    <outline text="Diginomics" title="Diginomics" description="" type="rss" version="RSS" htmlUrl="https://diginomics.com/" xmlUrl="http://diginomics.com/feed/"/>
+    <outline text="Ethereum World News" title="Ethereum World News" description="" type="rss" version="RSS" htmlUrl="https://ethereumworldnews.com/" xmlUrl="http://ethereumworldnews.com/feed/"/>
+    <outline text="Hyperledger" title="Hyperledger" description="" type="rss" version="RSS" htmlUrl="https://www.hyperledger.org/" xmlUrl="https://www.hyperledger.org/feed"/>
+    <outline text="Monero" title="Monero" description="" type="rss" version="RSS" htmlUrl="https://www.getmonero.org/" xmlUrl="https://getmonero.org/feed.xml"/>
+    <outline text="Ripple" title="Ripple" description="" type="rss" version="RSS" htmlUrl="https://ripple.com/" xmlUrl="https://ripple.com/feed/"/>
+    <outline text="The Coinbase " title="The Coinbase " description="" type="rss" version="RSS" htmlUrl="https://blog.coinbase.com?source=rss----c114225aeaf7---4/" xmlUrl="http://blog.coinbase.com/rss"/>
+    <outline text="The Monetary Future" title="The Monetary Future" description="" type="rss" version="RSS" htmlUrl="http://themonetaryfuture.blogspot.com/" xmlUrl="http://themonetaryfuture.blogspot.com/feeds/posts/default"/>
+    <outline text="TradeBlock" title="TradeBlock" description="" type="rss" version="RSS" htmlUrl="https://research.tradeblock.com/" xmlUrl="http://thegenesisblock.com/feed/"/>
+    <outline text="Vitalik Buterin's website" title="Vitalik Buterin's website" description="" type="rss" version="RSS" htmlUrl="https://vitalik.ca/" xmlUrl="http://vitalik.ca/feed.xml"/>
+  </outline>
+  <outline text="Cyber" title="Cyber">
+    <outline text="AlienVault Blogs" title="AlienVault Blogs" description="" type="rss" version="RSS" htmlUrl="https://cybersecurity.att.com/blogs" xmlUrl="http://feeds.feedblitz.com/alienvault-blogs&amp;x=1"/>
+    <outline text="CISA Current Activity" title="CISA Current Activity" description="" type="rss" version="RSS" htmlUrl="https://us-cert.cisa.gov/" xmlUrl="http://www.us-cert.gov/current/index.rdf"/>
+    <outline text="CSO Online" title="CSO Online" description="" type="rss" version="RSS" htmlUrl="https://www.csoonline.com/" xmlUrl="http://www.csoonline.com/index.rss"/>
+    <outline text="CyberPunk Network" title="CyberPunk Network" description="" type="rss" version="RSS" htmlUrl="http://n0where.net/" xmlUrl="http://createfeed.fivefilters.org/extract.php?url=n0where.net&amp;in_id_or_class=&amp;url_contains="/>
+    <outline text="Dark Reading" title="Dark Reading" description="" type="rss" version="RSS" htmlUrl="https://www.darkreading.com/" xmlUrl="http://www.darkreading.com/rss/all.xml"/>
+    <outline text="Darknet" title="Darknet" description="" type="rss" version="RSS" htmlUrl="https://www.darknet.org.uk/" xmlUrl="http://feeds.feedburner.com/darknethackers"/>
+    <outline text="DataBreaches.net" title="DataBreaches.net" description="" type="rss" version="RSS" htmlUrl="https://www.databreaches.net/" xmlUrl="http://feeds.feedburner.com/OfficeOfInadequateSecurity"/>
+    <outline text="Fire Eye Threat Research " title="Fire Eye Threat Research " description="" type="rss" version="RSS" htmlUrl="http://www.fireeye.com/blog/threat-research.html" xmlUrl="http://www.fireeye.com/blog/feed"/>
+    <outline text="Future of Privacy Forum" title="Future of Privacy Forum" description="" type="rss" version="RSS" htmlUrl="https://fpf.org/" xmlUrl="http://www.futureofprivacy.org/feed/"/>
+    <outline text="Google Online Security Blog" title="Google Online Security Blog" description="" type="rss" version="RSS" htmlUrl="http://security.googleblog.com/" xmlUrl="http://googleonlinesecurity.blogspot.com/atom.xml"/>
+    <outline text="Infosec Resources" title="Infosec Resources" description="" type="rss" version="RSS" htmlUrl="https://resources.infosecinstitute.com/" xmlUrl="http://feeds.feedburner.com/infosecResources"/>
+    <outline text="Kaspersky official blog" title="Kaspersky official blog" description="" type="rss" version="RSS" htmlUrl="https://www.kaspersky.com/blog" xmlUrl="http://blog.kaspersky.com/feed/"/>
+    <outline text="Krebs on Security" title="Krebs on Security" description="" type="rss" version="RSS" htmlUrl="https://krebsonsecurity.com/" xmlUrl="http://krebsonsecurity.com/feed/"/>
+    <outline text="Malware Must Die!" title="Malware Must Die!" description="" type="rss" version="RSS" htmlUrl="https://blog.malwaremustdie.org/" xmlUrl="http://malwaremustdie.blogspot.com/feeds/posts/default"/>
+    <outline text="Malware-Traffic-Analysis.net - Blog Entries" title="Malware-Traffic-Analysis.net - Blog Entries" description="" type="rss" version="RSS" htmlUrl="https://www.malware-traffic-analysis.net/index.html" xmlUrl="http://www.malware-traffic-analysis.net/blog-entries.rss"/>
+    <outline text="Malwarebytes Labs" title="Malwarebytes Labs" description="" type="rss" version="RSS" htmlUrl="https://blog.malwarebytes.com/" xmlUrl="http://blog.malwarebytes.org/feed/"/>
+    <outline text="Microsoft Security Response Center" title="Microsoft Security Response Center" description="" type="rss" version="RSS" htmlUrl="https://msrc-blog.microsoft.com/" xmlUrl="http://blogs.technet.com/msrc/rss.xml"/>
+    <outline text="Naked Security" title="Naked Security" description="" type="rss" version="RSS" htmlUrl="https://nakedsecurity.sophos.com/" xmlUrl="http://nakedsecurity.sophos.com/feed/"/>
+    <outline text="Palo Alto Networks Blog" title="Palo Alto Networks Blog" description="" type="rss" version="RSS" htmlUrl="https://blog.paloaltonetworks.com/" xmlUrl="http://researchcenter.paloaltonetworks.com/feed/"/>
+    <outline text="Privacy &amp; Information Security Law Blog" title="Privacy &amp; Information Security Law Blog" description="" type="rss" version="RSS" htmlUrl="https://www.huntonprivacyblog.com/" xmlUrl="http://www.huntonprivacyblog.com/feed/"/>
+    <outline text="Privacy | The Guardian" title="Privacy | The Guardian" description="" type="rss" version="RSS" htmlUrl="https://www.theguardian.com/world/privacy" xmlUrl="http://www.guardian.co.uk/world/privacy/rss"/>
+    <outline text="Project Zero" title="Project Zero" description="" type="rss" version="RSS" htmlUrl="https://googleprojectzero.blogspot.com/" xmlUrl="http://googleprojectzero.blogspot.com/feeds/posts/default"/>
+    <outline text="ProtonMail Blog" title="ProtonMail Blog" description="" type="rss" version="RSS" htmlUrl="https://protonmail.com/blog" xmlUrl="https://protonmail.ch/blog/feed/"/>
+    <outline text="SANS Internet Storm Center, InfoCON: green" title="SANS Internet Storm Center, InfoCON: green" description="" type="rss" version="RSS" htmlUrl="https://isc.sans.edu/" xmlUrl="http://iscxml.sans.org/rssfeed.xml"/>
+    <outline text="Security – Cisco Blogs" title="Security – Cisco Blogs" description="" type="rss" version="RSS" htmlUrl="https://blogs.cisco.com/" xmlUrl="http://blogs.cisco.com/rss/security/"/>
+    <outline text="The Register – Security" title="The Register – Security" description="" type="rss" version="RSS" htmlUrl="https://www.theregister.com/security/" xmlUrl="http://www.theregister.co.uk/security/headlines.atom"/>
+    <outline text="Threatpost" title="Threatpost" description="" type="rss" version="RSS" htmlUrl="https://threatpost.com/" xmlUrl="http://threatpost.com/feed"/>
+    <outline text="zerosum0x0" title="zerosum0x0" description="" type="rss" version="RSS" htmlUrl="https://zerosum0x0.blogspot.com/" xmlUrl="http://zerosum0x0.blogspot.com/feeds/posts/default"/>
+  </outline>
   <!-- RESEARCH -->
   <outline text="Research" title="Research">
     <outline text="Microsoft Research" title="Microsoft Research" description="" type="rss" version="RSS" htmlUrl="https://www.microsoft.com/en-us/research" xmlUrl="https://www.microsoft.com/en-us/research/feed"/>
@@ -76,8 +75,8 @@
     <outline text="IT Security Guru " title="IT Security Guru " description="" type="rss" version="RSS" htmlUrl="https://www.itsecurityguru.org/" xmlUrl="http://itsecurityguru.org/feed/"/>
     <outline title="Daniel Miessler" text="Daniel Miessler" xmlUrl='https://danielmiessler.com/feed' />
     <outline title="Graham" text="Graham" xmlUrl='https://grahamcluley.com/feed' />
-		<outline text="SecurityWeek" title="SecurityWeek" description="" type="rss" version="RSS" htmlUrl="https://www.securityweek.com/" xmlUrl="http://feeds.feedburner.com/Securityweek"/>
-		<outline text="The Hacker News" title="The Hacker News" description="" type="rss" version="RSS" htmlUrl="https://thehackernews.com/" xmlUrl="http://thehackernews.com/feeds/posts/default"/>
+    <outline text="SecurityWeek" title="SecurityWeek" description="" type="rss" version="RSS" htmlUrl="https://www.securityweek.com/" xmlUrl="http://feeds.feedburner.com/Securityweek"/>
+    <outline text="The Hacker News" title="The Hacker News" description="" type="rss" version="RSS" htmlUrl="https://thehackernews.com/" xmlUrl="http://thehackernews.com/feeds/posts/default"/>
     <outline title="Tripwire" text="Tripwire" xmlUrl='https://www.tripwire.com/state-of-security/feed' />
     <outline title="Troyhunt" text="Troyhunt" xmlUrl='https://www.troyhunt.com/rss' />
     <outline title="Last watchdog" text="Last watchdog" xmlUrl='https://www.lastwatchdog.com/feed' />
@@ -87,19 +86,19 @@
     <outline title="Tao Security" text="Tao Security" xmlUrl='https://taosecurity.blogspot.com/feeds/posts/default' />
   </outline>
   <!-- Programming -->    
-	<outline text="Programming" title="Programming">
-		<outline text="Dropbox Tech Blog" title="Dropbox Tech Blog" description="" type="rss" version="RSS" htmlUrl="https://dropboxtechblog.wordpress.com/" xmlUrl="https://tech.dropbox.com/feed/"/>
-		<outline text="Engineering – The GitHub Blog" title="Engineering – The GitHub Blog" description="" type="rss" version="RSS" htmlUrl="https://github.blog/" xmlUrl="http://githubengineering.com/atom.xml"/>
-		<outline text="Go (Golang) Programming Blog - Ardan Labs on" title="Go (Golang) Programming Blog - Ardan Labs on" description="" type="rss" version="RSS" htmlUrl="https://www.ardanlabs.com/blog/" xmlUrl="https://www.goinggo.net/index.xml"/>
-		<outline text="Google Developers " title="Google Developers " description="" type="rss" version="RSS" htmlUrl="http://developers.googleblog.com/" xmlUrl="http://code.google.com/feeds/updates.xml"/>
-		<outline text="Gopher Academy Blog" title="Gopher Academy Blog" description="" type="rss" version="RSS" htmlUrl="https://blog.gopheracademy.com/" xmlUrl="https://blog.gopheracademy.com/index.xml"/>
-		<outline text="Hacker News" title="Hacker News" description="" type="rss" version="RSS" htmlUrl="https://news.ycombinator.com/" xmlUrl="http://news.ycombinator.com/rss"/>
-		<outline text="High Scalability" title="High Scalability" description="" type="rss" version="RSS" htmlUrl="http://highscalability.com/blog/" xmlUrl="http://feeds.feedburner.com/HighScalability"/>
-		<outline text="Joel on Software" title="Joel on Software" description="" type="rss" version="RSS" htmlUrl="https://www.joelonsoftware.com/" xmlUrl="http://www.joelonsoftware.com/rss.xml"/>
-		<outline text="Martin Fowler" title="Martin Fowler" description="" type="rss" version="RSS" htmlUrl="https://martinfowler.com/" xmlUrl="http://martinfowler.com/bliki/bliki.atom"/>
-		<outline text="Scott Hanselman's Blog" title="Scott Hanselman's Blog" description="" type="rss" version="RSS" htmlUrl="https://www.hanselman.com/blog/" xmlUrl="http://feeds.feedburner.com/ScottHanselman"/>
-		<outline text="The Clean Code Blog" title="The Clean Code Blog" description="" type="rss" version="RSS" htmlUrl="http://blog.cleancoder.com/" xmlUrl="http://blog.cleancoder.com/atom.xml"/>
-		<outline text="The Go Programming Language Blog" title="The Go Programming Language Blog" description="" type="rss" version="RSS" htmlUrl="http://blog.golang.org/" xmlUrl="http://blog.golang.org/feeds/posts/default"/>
-	</outline>
-	</body>
+  <outline text="Programming" title="Programming">
+    <outline text="Dropbox Tech Blog" title="Dropbox Tech Blog" description="" type="rss" version="RSS" htmlUrl="https://dropboxtechblog.wordpress.com/" xmlUrl="https://tech.dropbox.com/feed/"/>
+    <outline text="Engineering – The GitHub Blog" title="Engineering – The GitHub Blog" description="" type="rss" version="RSS" htmlUrl="https://github.blog/" xmlUrl="http://githubengineering.com/atom.xml"/>
+    <outline text="Go (Golang) Programming Blog - Ardan Labs on" title="Go (Golang) Programming Blog - Ardan Labs on" description="" type="rss" version="RSS" htmlUrl="https://www.ardanlabs.com/blog/" xmlUrl="https://www.goinggo.net/index.xml"/>
+    <outline text="Google Developers " title="Google Developers " description="" type="rss" version="RSS" htmlUrl="http://developers.googleblog.com/" xmlUrl="http://code.google.com/feeds/updates.xml"/>
+    <outline text="Gopher Academy Blog" title="Gopher Academy Blog" description="" type="rss" version="RSS" htmlUrl="https://blog.gopheracademy.com/" xmlUrl="https://blog.gopheracademy.com/index.xml"/>
+    <outline text="Hacker News" title="Hacker News" description="" type="rss" version="RSS" htmlUrl="https://news.ycombinator.com/" xmlUrl="http://news.ycombinator.com/rss"/>
+    <outline text="High Scalability" title="High Scalability" description="" type="rss" version="RSS" htmlUrl="http://highscalability.com/blog/" xmlUrl="http://feeds.feedburner.com/HighScalability"/>
+    <outline text="Joel on Software" title="Joel on Software" description="" type="rss" version="RSS" htmlUrl="https://www.joelonsoftware.com/" xmlUrl="http://www.joelonsoftware.com/rss.xml"/>
+    <outline text="Martin Fowler" title="Martin Fowler" description="" type="rss" version="RSS" htmlUrl="https://martinfowler.com/" xmlUrl="http://martinfowler.com/bliki/bliki.atom"/>
+    <outline text="Scott Hanselman's Blog" title="Scott Hanselman's Blog" description="" type="rss" version="RSS" htmlUrl="https://www.hanselman.com/blog/" xmlUrl="http://feeds.feedburner.com/ScottHanselman"/>
+    <outline text="The Clean Code Blog" title="The Clean Code Blog" description="" type="rss" version="RSS" htmlUrl="http://blog.cleancoder.com/" xmlUrl="http://blog.cleancoder.com/atom.xml"/>
+    <outline text="The Go Programming Language Blog" title="The Go Programming Language Blog" description="" type="rss" version="RSS" htmlUrl="http://blog.golang.org/" xmlUrl="http://blog.golang.org/feeds/posts/default"/>
+  </outline>
+  </body>
 </opml>
