@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "../../Documents/notes/foam-template"
+		}
+	],
+	"settings": {
+		"workbench.colorTheme": "1984 - Cyberpunk",
+		"vscodeMarkdownNotes.noteCompletionConvention": "noExtension"
+	}
+}

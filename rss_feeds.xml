@@ -61,10 +61,11 @@
     <outline text="Threatpost" title="Threatpost" description="" type="rss" version="RSS" htmlUrl="https://threatpost.com/" xmlUrl="http://threatpost.com/feed"/>
     <outline text="zerosum0x0" title="zerosum0x0" description="" type="rss" version="RSS" htmlUrl="https://zerosum0x0.blogspot.com/" xmlUrl="http://zerosum0x0.blogspot.com/feeds/posts/default"/>
   </outline>
-  <!-- RESEARCH -->
-  <outline text="Research" title="Research">
+  <!-- RESEARCH and People-->
+  <outline text="Research and People" title="Research">
     <outline text="Microsoft Research" title="Microsoft Research" description="" type="rss" version="RSS" htmlUrl="https://www.microsoft.com/en-us/research" xmlUrl="https://www.microsoft.com/en-us/research/feed"/>
     <outline text="Google AI Research" title="Google AI Research" description="" type="rss" version="RSS" htmlUrl="https://ai.googleblog.com/" xmlUrl="http://googleaiblog.blogspot.com/atom.xml"/>
+    <outline text="Peter Norvig" title="Peter Norvig" description="" type="rss" version="RSS" htmlUrl="http://www.norvig.com/" xmlUrl="http://www.norvig.com/rss-feed.xml"/>
   </outline>
   <!-- Recommended Cybersecurity Feeds-->
   <outline text="Top Cyber and Security Feeds" title="Top Cyber and Security Feeds">
