@@ -34,7 +34,6 @@
   <outline text="Cyber" title="Cyber">
     <outline text="AlienVault Blogs" title="AlienVault Blogs" description="" type="rss" version="RSS" htmlUrl="https://cybersecurity.att.com/blogs" xmlUrl="http://feeds.feedblitz.com/alienvault-blogs&amp;x=1"/>
     <outline text="CISA Current Activity" title="CISA Current Activity" description="" type="rss" version="RSS" htmlUrl="https://us-cert.cisa.gov/" xmlUrl="http://www.us-cert.gov/current/index.rdf"/>
-    <outline text="CSO Online" title="CSO Online" description="" type="rss" version="RSS" htmlUrl="https://www.csoonline.com/" xmlUrl="http://www.csoonline.com/index.rss"/>
     <outline text="CyberPunk Network" title="CyberPunk Network" description="" type="rss" version="RSS" htmlUrl="http://n0where.net/" xmlUrl="http://createfeed.fivefilters.org/extract.php?url=n0where.net&amp;in_id_or_class=&amp;url_contains="/>
     <outline text="Dark Reading" title="Dark Reading" description="" type="rss" version="RSS" htmlUrl="https://www.darkreading.com/" xmlUrl="http://www.darkreading.com/rss/all.xml"/>
     <outline text="Darknet" title="Darknet" description="" type="rss" version="RSS" htmlUrl="https://www.darknet.org.uk/" xmlUrl="http://feeds.feedburner.com/darknethackers"/>
@@ -54,7 +53,6 @@
     <outline text="Privacy &amp; Information Security Law Blog" title="Privacy &amp; Information Security Law Blog" description="" type="rss" version="RSS" htmlUrl="https://www.huntonprivacyblog.com/" xmlUrl="http://www.huntonprivacyblog.com/feed/"/>
     <outline text="Privacy | The Guardian" title="Privacy | The Guardian" description="" type="rss" version="RSS" htmlUrl="https://www.theguardian.com/world/privacy" xmlUrl="http://www.guardian.co.uk/world/privacy/rss"/>
     <outline text="Project Zero" title="Project Zero" description="" type="rss" version="RSS" htmlUrl="https://googleprojectzero.blogspot.com/" xmlUrl="http://googleprojectzero.blogspot.com/feeds/posts/default"/>
-    <outline text="ProtonMail Blog" title="ProtonMail Blog" description="" type="rss" version="RSS" htmlUrl="https://protonmail.com/blog" xmlUrl="https://protonmail.ch/blog/feed/"/>
     <outline text="SANS Internet Storm Center, InfoCON: green" title="SANS Internet Storm Center, InfoCON: green" description="" type="rss" version="RSS" htmlUrl="https://isc.sans.edu/" xmlUrl="http://iscxml.sans.org/rssfeed.xml"/>
     <outline text="Security – Cisco Blogs" title="Security – Cisco Blogs" description="" type="rss" version="RSS" htmlUrl="https://blogs.cisco.com/" xmlUrl="http://blogs.cisco.com/rss/security/"/>
     <outline text="The Register – Security" title="The Register – Security" description="" type="rss" version="RSS" htmlUrl="https://www.theregister.com/security/" xmlUrl="http://www.theregister.co.uk/security/headlines.atom"/>
@@ -69,6 +67,9 @@
   </outline>
   <!-- Recommended Cybersecurity Feeds-->
   <outline text="Top Cyber and Security Feeds" title="Top Cyber and Security Feeds">
+    <outline text="ProtonMail Blog" title="ProtonMail Blog" description="" type="rss" version="RSS" htmlUrl="https://protonmail.com/blog" xmlUrl="https://protonmail.ch/blog/feed/"/>
+    <outline text="CSO Online" title="CSO Online" description="" type="rss" version="RSS" htmlUrl="https://www.csoonline.com/" xmlUrl="http://www.csoonline.com/index.rss"/>
+    <outline text="Palo Alto Networks Blog" title="Palo Alto Networks Blog" description="" type="rss" version="RSS" htmlUrl="https://blog.paloaltonetworks.com/" xmlUrl="http://researchcenter.paloaltonetworks.com/feed/"/>
     <outline text="Microsoft Security" title="Microsoft Security" description="" type="rss" version="RSS" htmlUrl="https://www.microsoft.com/security/blog" xmlUrl="http://blogs.technet.com/mmpc/rss.xml"/>
     <outline text="ZDNet | security RSS" title="ZDNet | security RSS" description="" type="rss" version="RSS" htmlUrl="https://www.zdnet.com/" xmlUrl="http://www.zdnet.com/blog/security/rss"/>
     <outline text="National Cyber Security Centre" title="National Cyber Security Centre" description="" type="rss" version="RSS" htmlUrl="https://www.ncsc.gov.uk" xmlUrl="https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml"/>
