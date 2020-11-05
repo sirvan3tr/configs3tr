@@ -8,4 +8,6 @@ These commands are used here and there.
 - i3 config is either at ~/.config/i3/config or /etc/i3:
 Using IMWheel to change the settings on scroll speed
 - Run with 'imwheel'
+- mod+shift+c to reload config
 - Use the Arch documentations (they are good).
+- Add to path: `set PATH /home/sirvan/.local/bin $PATH`
