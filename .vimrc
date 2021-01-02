@@ -35,7 +35,7 @@ Plug 'junegunn/vim-easy-align'
 " On-demand loading
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'tpope/vim-fireplace', { 'for': 'clojure' }
-
+Plug 'preservim/nerdtree'
 " Using a tagged release; wildcard allowed (requires git 1.9.2 or above)
 Plug 'fatih/vim-go', { 'tag': '*' }
 
@@ -49,20 +49,35 @@ Plug 'tpope/vim-surround'
 " Plug 'lervag/vimtex'
 " Snippets and so on require pip install pynvim
 " Plug 'ycm-core/YouCompleteMe'
-Plug 'SirVer/ultisnips'
+" Plug 'SirVer/ultisnips'
 " Snippets are separated from the engine. Add this if you want them
 " Maybe you need to symlink in order to make sure the dirs are talking
 " ln -s ~/.vim/plugged/vim-snippets/UltiSnips ~/.config/nvim/UltiSnips
-Plug 'honza/vim-snippets'
+" Plug 'honza/vim-snippets'
+Plug 'franbach/miramare'
+Plug 'https://github.com/Mizux/vim-colorschemes'
+Plug 'https://github.com/tjammer/focusedpanic.vim'
 " Initialize plugin system
 call plug#end()
 
-set background=dark
-colorscheme palenight
-let g:lightline = { 'colorscheme': 'palenight' }
-let g:airline_theme = "palenight"
-" Italics for my favorite color scheme
-let g:palenight_terminal_italics=1
+" Colour schemes
+" set background=dark
+" colorscheme palenight
+" let g:lightline = { 'colorscheme': 'palenight' }
+" let g:airline_theme = "palenight"
+" " Italics for my favorite color scheme
+" let g:palenight_terminal_italics=1
+
+" important!!
+" set termguicolors
+
+" the configuration options should be placed before `colorscheme miramare`
+let g:miramare_enable_italic = 1
+" let g:miramare_disable_italic_comment = 1
+" let g:airline_theme = 'miramare'
+colorscheme miramare
+" Shortcuts
+map <C-n> :NERDTreeToggle<CR>
 
 "TRUE COLORS
 if (has("nvim"))
