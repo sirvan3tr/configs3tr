@@ -1,3 +1,18 @@
+;; ____________________________________________________________________________
+;; Aquamacs custom-file warning:
+;; Warning: After loading this .emacs file, Aquamacs will also load
+;; customizations from `custom-file' (customizations.el). Any settings there
+;; will override those made here.
+;; Consider moving your startup settings to the Preferences.el file, which
+;; is loaded after `custom-file':
+;; ~/Library/Preferences/Aquamacs Emacs/Preferences
+;; _____________________________________________________________________________
+
+
+;; Added by Package.el.  This must come before configurations of
+;; installed packages.  Don't delete this line.  If you don't want it,
+;; just comment it out by adding a semicolon to the start of the line.
+;; You may delete these explanatory comments.
 (package-initialize)
 
 (load "~/.emacs.rc/rc.el")
@@ -8,20 +23,22 @@
 
 (tool-bar-mode 0)
 (menu-bar-mode 0)
-(scroll-bar-mode 0)
+;(scroll-bar-mode 0)
 (column-number-mode 1)
 (show-paren-mode 1)
 
 (rc/require-theme 'gruber-darker)
-;; (load-theme 'zenburn t)
+;;(load-theme 'zenburn t)
 
 ;;; evil mode
 (require 'evil)
 (evil-mode 1)
+(line-number-mode 0)
+(set-window-margins nil 0)
 
 ;;; Other Sirvan
-(add-hook 'prog-mode-hook 'highlight-indent-guides-mode)
 (setq-default line-spacing 4)
+(add-hook 'prog-mode-hook #'display-fill-column-indicator-mode)
 
 ;;; writegood-mode
 (add-to-list 'load-path "~/.emacs.rc/writegood-mode")
@@ -84,6 +101,7 @@
 (add-hook 'haskell-mode-hook 'haskell-doc-mode)
 (add-hook 'haskell-mode-hook 'hindent-mode)
 
+(setq linum-relative-current-symbol "")
 ;;; Whitespace mode
 (defun rc/set-up-whitespace-handling ()
   (interactive)
@@ -110,156 +128,13 @@
 (add-hook 'yaml-mode-hook 'rc/set-up-whitespace-handling)
 
 ;;; display-line-numbers-mode
-(when (version<= "26.0.50" emacs-version)
-  (global-display-line-numbers-mode))
+;(when (version<= "26.0.50" emacs-version)
+;  (global-display-line-numbers-mode))
 
 ;;; magit
 ;; magit requres this lib, but it is not installed automatically on
 ;; Windows.
-(rc/require 'cl-lib)
-(rc/require 'magit)
-
-(setq magit-auto-revert-mode nil)
-
-(global-set-key (kbd "C-c m s") 'magit-status)
-(global-set-key (kbd "C-c m l") 'magit-log)
-
-;;; multiple cursors
-(rc/require 'multiple-cursors)
-
-(global-set-key (kbd "C-S-c C-S-c") 'mc/edit-lines)
-(global-set-key (kbd "C->")         'mc/mark-next-like-this)
-(global-set-key (kbd "C-<")         'mc/mark-previous-like-this)
-(global-set-key (kbd "C-c C-<")     'mc/mark-all-like-this)
-(global-set-key (kbd "C-\"")        'mc/skip-to-next-like-this)
-(global-set-key (kbd "C-:")         'mc/skip-to-previous-like-this)
-
-;;; dired
-(require 'dired-x)
-(setq dired-omit-files
-      (concat dired-omit-files "\\|^\\..+$"))
-(setq-default dired-dwim-target t)
-(setq dired-listing-switches "-alh")
-
-;;; helm
-(rc/require 'helm 'helm-cmd-t 'helm-git-grep 'helm-ls-git)
-
-(setq helm-ff-transformer-show-only-basename nil)
-
-(global-set-key (kbd "C-c h t") 'helm-cmd-t)
-(global-set-key (kbd "C-c h g g") 'helm-git-grep)
-(global-set-key (kbd "C-c h g l") 'helm-ls-git-ls)
-(global-set-key (kbd "C-c h f") 'helm-find)
-(global-set-key (kbd "C-c h a") 'helm-org-agenda-files-headings)
-(global-set-key (kbd "C-c h r") 'helm-recentf)
-
-;;; yasnippet
-(rc/require 'yasnippet)
-
-(require 'yasnippet)
-
-(setq yas/triggers-in-field nil)
-(setq yas-snippet-dirs '("~/.emacs.snippets/"))
-
-(yas-global-mode 1)
-
-;;; word-wrap
-(defun rc/enable-word-wrap ()
-  (interactive)
-  (toggle-word-wrap 1))
-
-(add-hook 'markdown-mode-hook 'rc/enable-word-wrap)
-
-;;; js2
-(rc/require 'js2-mode)
-
-(add-to-list 'auto-mode-alist '("\\.js\\'" . js2-mode))
-(add-to-list 'interpreter-mode-alist '("node" . js2-mode))
-
-(add-to-list 'auto-mode-alist '("\\.jsx\\'" . js2-jsx-mode))
-(add-to-list 'interpreter-mode-alist '("node". js2-jsx-mode))
-
-;;; nxml
-(add-to-list 'auto-mode-alist '("\\.html\\'" . nxml-mode))
-(add-to-list 'auto-mode-alist '("\\.xsd\\'" . nxml-mode))
-(add-to-list 'auto-mode-alist '("\\.ant\\'" . nxml-mode))
-
-;;; tramp
-;;; http://stackoverflow.com/questions/13794433/how-to-disable-autosave-for-tramp-buffers-in-emacs
-(setq tramp-auto-save-directory "/tmp")
-
-;;; powershell
-(rc/require 'powershell)
-(add-to-list 'auto-mode-alist '("\\.ps1\\'" . powershell-mode))
-(add-to-list 'auto-mode-alist '("\\.psm1\\'" . powershell-mode))
-
-;;; eldoc mode
-(defun rc/turn-on-eldoc-mode ()
-  (interactive)
-  (eldoc-mode 1))
-
-(add-hook 'emacs-lisp-mode-hook 'rc/turn-on-eldoc-mode)
-
-;;; Company
-(rc/require 'company)
-(require 'company)
-
-(global-company-mode)
-
-(add-hook 'tuareg-mode-hook
-          (lambda ()
-            (interactive)
-            (company-mode 0)))
-
-;;; Tide
-(rc/require 'tide)
-
-(defun rc/turn-on-tide ()
-  (interactive)
-  (tide-setup))
-
-(add-hook 'typescript-mode-hook 'rc/turn-on-tide)
-
-;;; Editorconfig
-(rc/require 'editorconfig)
-(editorconfig-mode 1)
-
-;;; Proof general
-(rc/require 'proof-general)
-(add-hook 'coq-mode-hook
-          '(lambda ()
-             (local-set-key (kbd "C-c C-q C-n")
-                            (quote proof-assert-until-point-interactive))))
-
-;;; Nasm Mode
-(rc/require 'nasm-mode)
-(add-to-list 'auto-mode-alist '("\\.asm\\'" . nasm-mode))
-
-;;; LaTeX mode
-(add-hook 'tex-mode-hook
-          (lambda ()
-            (interactive)
-            (add-to-list 'tex-verbatim-environments "code")))
-
-;;; Move Text
-(rc/require 'move-text)
-(global-set-key (kbd "M-p") 'move-text-up)
-(global-set-key (kbd "M-n") 'move-text-down)
-
-;;; Ebisp
-(add-to-list 'auto-mode-alist '("\\.ebi\\'" . lisp-mode))
-
-;;; Packages that don't require configuration
-(rc/require
- 'scala-mode
- 'd-mode
- 'yaml-mode
- 'glsl-mode
- 'tuareg
- 'lua-mode
- 'less-css-mode
- 'graphviz-dot-mode
- 'clojure-mode
+(rc/require 'clojure-mode
  'cmake-mode
  'rust-mode
  'csharp-mode
@@ -290,7 +165,11 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(column-number-mode t)
+ '(custom-safe-themes
+   '("96c56bd2aab87fd92f2795df76c3582d762a88da5c0e54d30c71562b7bf9c605" "83e0376b5df8d6a3fbdfffb9fb0e8cf41a11799d9471293a810deb7586c131e6" "7661b762556018a44a29477b84757994d8386d6edee909409fabe0631952dad9" "e6df46d5085fde0ad56a46ef69ebb388193080cc9819e2d6024c9c6e27388ba9" "5f824cddac6d892099a91c3f612fcf1b09bb6c322923d779216ab2094375c5ee" "76b4632612953d1a8976d983c4fdf5c3af92d216e2f87ce2b0726a1f37606158" "78c4238956c3000f977300c8a079a3a8a8d4d9fee2e68bad91123b58a4aa8588" "4eb6fa2ee436e943b168a0cd8eab11afc0752aebb5d974bba2b2ddc8910fca8f" "6b5c518d1c250a8ce17463b7e435e9e20faa84f3f7defba8b579d4f5925f60c1" "d14f3df28603e9517eb8fb7518b662d653b25b26e83bd8e129acea042b774298" "a6fc75241bcc7ce6f68dcfd0de2d4c4bd804d0f8cd3a9f08c3a07654160e9abe" default))
  '(display-line-numbers-type 'relative)
+ '(line-number-mode nil)
  '(org-agenda-dim-blocked-tasks nil)
  '(org-agenda-exporter-settings '((org-agenda-tag-filter-preset (list "+personal"))))
  '(org-cliplink-transport-implementation 'url-el)
@@ -299,7 +178,7 @@
    '(org-bbdb org-bibtex org-docview org-gnus org-habit org-info org-irc org-mhe org-rmail org-w3m))
  '(org-refile-use-outline-path 'file)
  '(package-selected-packages
-   '(zenburn-theme helm-ispell flyspell-popup cider html5-schema highlight-indent-guides auctex-latexmk ## org-translate rainbow-mode proof-general elpy hindent ag qml-mode racket-mode php-mode go-mode kotlin-mode nginx-mode toml-mode love-minor-mode dockerfile-mode nix-mode purescript-mode markdown-mode jinja2-mode nim-mode csharp-mode rust-mode cmake-mode clojure-mode graphviz-dot-mode lua-mode tuareg glsl-mode yaml-mode d-mode scala-mode move-text nasm-mode editorconfig tide company powershell js2-mode yasnippet helm-ls-git helm-git-grep helm-cmd-t helm multiple-cursors magit haskell-mode paredit ido-completing-read+ smex gruber-darker-theme org-cliplink dash-functional dash))
+   '(projectile tabbar sublimity treemacs dired-ranger ranger sr-speedbar project-explorer calfw-cal calfw twilight-bright-theme dired-sidebar neotree noctilux-theme modus-vivendi-theme zenburn-theme helm-ispell flyspell-popup cider html5-schema highlight-indent-guides auctex-latexmk ## org-translate rainbow-mode proof-general elpy hindent ag qml-mode racket-mode php-mode go-mode kotlin-mode nginx-mode toml-mode love-minor-mode dockerfile-mode nix-mode purescript-mode markdown-mode jinja2-mode nim-mode csharp-mode rust-mode cmake-mode clojure-mode graphviz-dot-mode lua-mode tuareg glsl-mode yaml-mode d-mode scala-mode move-text nasm-mode editorconfig tide company powershell js2-mode yasnippet helm-ls-git helm-git-grep helm-cmd-t helm multiple-cursors magit haskell-mode paredit ido-completing-read+ smex gruber-darker-theme org-cliplink dash-functional dash))
  '(safe-local-variable-values
    '((eval progn
            (auto-revert-mode 1)
