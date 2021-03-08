@@ -13,7 +13,7 @@
 ;; installed packages.  Don't delete this line.  If you don't want it,
 ;; just comment it out by adding a semicolon to the start of the line.
 ;; You may delete these explanatory comments.
-(package-initialize)
+;(package-initialize)
 
 (load "~/.emacs.rc/rc.el")
 
@@ -27,8 +27,9 @@
 (column-number-mode 1)
 (show-paren-mode 1)
 
-(rc/require-theme 'gruber-darker)
+;;(rc/require-theme 'gruvbox-dark-hard)
 ;;(load-theme 'zenburn t)
+(load-theme 'gruvbox-dark-hard t)
 
 ;;; evil mode
 (require 'evil)
@@ -56,6 +57,32 @@
 
 (global-set-key (kbd "M-x") 'smex)
 (global-set-key (kbd "C-c C-c M-x") 'execute-extended-command)
+
+(global-set-key "\C-xs" 'save-buffer)
+(global-set-key "\C-xv" 'quoted-insert)
+(global-set-key "\C-xg" 'goto-line)
+(global-set-key "\C-xf" 'search-forward)
+(global-set-key "\C-xc" 'compile)
+(global-set-key "\C-xt" 'text-mode);
+(global-set-key "\C-xr" 'replace-string);
+(global-set-key "\C-xa" 'repeat-complex-command);
+(global-set-key "\C-xm" 'manual-entry);
+(global-set-key "\C-xw" 'what-line);
+(global-set-key "\C-x\C-u" 'shell);
+(global-set-key "\C-x0" 'overwrite-mode);
+(global-set-key "\C-x\C-r" 'toggle-read-only);
+(global-set-key "\C-t" 'kill-word);
+(global-set-key "\C-p" 'previous-line);
+(global-set-key "\C-u" 'backward-word);
+(global-set-key "\C-o" 'forward-word);
+(global-set-key "\C-h" 'backward-delete-char-untabify);
+(global-set-key "\C-x\C-m" 'not-modified);
+(setq make-backup-files 'nil);
+(setq default-major-mode 'text-mode)
+(setq text-mode-hook 'turn-on-auto-fill)
+(setq auto-mode-alist (cons '("\\.cxx$" . c++-mode) auto-mode-alist))
+(setq auto-mode-alist (cons '("\\.hpp$" . c++-mode) auto-mode-alist))
+(setq auto-mode-alist (cons '("\\.tex$" . latex-mode) auto-mode-alist))
 
 ;;; c-mode
 (setq-default c-basic-offset 4
@@ -178,7 +205,7 @@
    '(org-bbdb org-bibtex org-docview org-gnus org-habit org-info org-irc org-mhe org-rmail org-w3m))
  '(org-refile-use-outline-path 'file)
  '(package-selected-packages
-   '(projectile tabbar sublimity treemacs dired-ranger ranger sr-speedbar project-explorer calfw-cal calfw twilight-bright-theme dired-sidebar neotree noctilux-theme modus-vivendi-theme zenburn-theme helm-ispell flyspell-popup cider html5-schema highlight-indent-guides auctex-latexmk ## org-translate rainbow-mode proof-general elpy hindent ag qml-mode racket-mode php-mode go-mode kotlin-mode nginx-mode toml-mode love-minor-mode dockerfile-mode nix-mode purescript-mode markdown-mode jinja2-mode nim-mode csharp-mode rust-mode cmake-mode clojure-mode graphviz-dot-mode lua-mode tuareg glsl-mode yaml-mode d-mode scala-mode move-text nasm-mode editorconfig tide company powershell js2-mode yasnippet helm-ls-git helm-git-grep helm-cmd-t helm multiple-cursors magit haskell-mode paredit ido-completing-read+ smex gruber-darker-theme org-cliplink dash-functional dash))
+   '(skewer-mode impatient-mode projectile tabbar sublimity treemacs dired-ranger ranger sr-speedbar project-explorer calfw-cal calfw twilight-bright-theme dired-sidebar neotree noctilux-theme modus-vivendi-theme zenburn-theme helm-ispell flyspell-popup cider html5-schema highlight-indent-guides auctex-latexmk ## org-translate rainbow-mode proof-general elpy hindent ag qml-mode racket-mode php-mode go-mode kotlin-mode nginx-mode toml-mode love-minor-mode dockerfile-mode nix-mode purescript-mode markdown-mode jinja2-mode nim-mode csharp-mode rust-mode cmake-mode clojure-mode graphviz-dot-mode lua-mode tuareg glsl-mode yaml-mode d-mode scala-mode move-text nasm-mode editorconfig tide company powershell js2-mode yasnippet helm-ls-git helm-git-grep helm-cmd-t helm multiple-cursors magit haskell-mode paredit ido-completing-read+ smex gruber-darker-theme org-cliplink dash-functional dash))
  '(safe-local-variable-values
    '((eval progn
            (auto-revert-mode 1)
