@@ -2,7 +2,7 @@
 (add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
 ;; (add-to-list 'package-archives
 ;;              '("melpa-stable" . "https://stable.melpa.org/packages/") t)
-
+(package-initialize)
 (defvar rc/package-contents-refreshed nil)
 
 (defun rc/package-refresh-contents-once ()
