@@ -10,4 +10,9 @@ Using IMWheel to change the settings on scroll speed
 - Run with 'imwheel'
 - mod+shift+c to reload config
 - Use the Arch documentations (they are good).
-- Add to path: `set PATH /home/sirvan/.local/bin $PATH`
+
+# Add to path
+set PATH /home/sirvan/.local/bin $PATH`
+
+# Find a specific keyword in all files with certain extension
+find / -name '*.py' -exec grep -l "keyword" {} \;
