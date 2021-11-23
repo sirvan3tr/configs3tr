@@ -16,3 +16,6 @@ set PATH /home/sirvan/.local/bin $PATH`
 
 # Find a specific keyword in all files with certain extension
 find / -name '*.py' -exec grep -l "keyword" {} \;
+
+
+brew services start postgresql
