@@ -17,5 +17,18 @@ set PATH /home/sirvan/.local/bin $PATH`
 # Find a specific keyword in all files with certain extension
 find / -name '*.py' -exec grep -l "keyword" {} \;
 
+# Hardware
+## Raspberry pi
+### Autostart
+Creating autostart scripts: create a file in `sudo vim /etc/xdg/autostart/myapp.desktop`
+
+**Example:**
+
+```
+[Desktop Entry]
+Exec=lxterminal -e "echo 'hello world'"
+```
+
+
 
 brew services start postgresql
