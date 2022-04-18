@@ -14,6 +14,25 @@ Using IMWheel to change the settings on scroll speed
 # Add to path
 set PATH /home/sirvan/.local/bin $PATH`
 
+# Make a bootable USB from an ISO file on MACOS
+```
+# Convert the .iso file to .img
+$ hdiutil convert -format UDRW -o TARGET.img SOURCE.iso
+
+# macOS will put a .dmg at the end of the file, so change that
+$ mv target.img.dmg target.img
+
+# Find your drive e.g. /dev/disk4
+$ diskutil list
+
+# Unmount your disk
+$ diskutil unmountDISK /dev/diskN
+
+# Copy the img to the usb and then eject
+$ sudo dd if=target.img of=/dev/rdiskN bs=1m
+$ diskutil eject /dev/diskN
+```
+
 # Find a specific keyword in all files with certain extension
 find / -name '*.py' -exec grep -l "keyword" {} \;
 
