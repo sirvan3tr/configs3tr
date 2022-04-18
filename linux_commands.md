@@ -1,10 +1,10 @@
 # Useful Linux Commands
 These commands are used here and there.
 - `top` provides a real-time view of a running system.
-- `ps -aux | grep XYZ
-- kill -9 PID
-- pkill -f <application_na>
-- /etc/X11/xorg.conf
+- `ps -aux | grep XYZ`
+- `kill -9 PID`
+- `pkill -f <application_na>`
+- `/etc/X11/xorg.conf`
 - i3 config is either at ~/.config/i3/config or /etc/i3:
 Using IMWheel to change the settings on scroll speed
 - Run with 'imwheel'
@@ -15,6 +15,7 @@ Using IMWheel to change the settings on scroll speed
 set PATH /home/sirvan/.local/bin $PATH`
 
 # Make a bootable USB from an ISO file on MACOS
+
 ```
 # Convert the .iso file to .img
 $ hdiutil convert -format UDRW -o TARGET.img SOURCE.iso
