@@ -6,3 +6,4 @@
 * sudo pacman -S dmenu
 * sudo pacman -S thunar
 * sudo pacman -S nodejs
+* oh my zsh
