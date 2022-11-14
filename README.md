@@ -14,3 +14,6 @@ My macos config is `~/.zshrc`
 * Go Programming Language
 * Network Programming with Go: Learn to Code Secure and Reliable Network Services from Scratch
 * 
+
+### Linux
+* UNIX and Linux System Administration Handbook
