@@ -16,4 +16,7 @@ My macos config is `~/.zshrc`
 * 
 
 ### Linux
-* UNIX and Linux System Administration Handbook
+* UNIX and Linux System Administration Handbook\
+
+defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false
+
