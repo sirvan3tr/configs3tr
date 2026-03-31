@@ -1,0 +1,27 @@
+-- -- Setup Mason for easy LSP installation
+-- require("mason").setup()
+-- require("mason-lspconfig").setup({
+--     ensure_installed = { "pyright" }  -- Python LSP
+-- })
+-- 
+-- -- Setup nvim-cmp
+-- local cmp = require('cmp')
+-- cmp.setup({
+--     mapping = cmp.mapping.preset.insert({
+--         ['<C-Space>'] = cmp.mapping.complete(),
+--         ['<CR>'] = cmp.mapping.confirm({ select = true }),
+--         ['<Tab>'] = cmp.mapping.select_next_item(),
+--         ['<S-Tab>'] = cmp.mapping.select_prev_item(),
+--     }),
+--     sources = {
+--         { name = 'nvim_lsp' },
+--         { name = 'buffer' },
+--         { name = 'path' },
+--     }
+-- })
+-- 
+-- -- Setup Python LSP
+-- local lspconfig = require('lspconfig')
+-- lspconfig.pyright.setup({
+--     capabilities = require('cmp_nvim_lsp').default_capabilities()
+-- })
