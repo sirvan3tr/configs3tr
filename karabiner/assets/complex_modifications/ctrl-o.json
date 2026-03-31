@@ -1,0 +1,27 @@
+{
+  "title": "Ctrl+O to open new line below (vim-like)",
+  "rules": [
+    {
+      "description": "Ctrl+O opens new line below cursor",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "o",
+            "modifiers": {
+              "mandatory": ["control"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "end"
+            },
+            {
+              "key_code": "return_or_enter"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

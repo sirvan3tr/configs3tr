@@ -1,0 +1,40 @@
+{
+  "title": "Option special chars via Unicode Hex Input",
+  "rules": [
+    {
+      "description": "Option+O → 𝐏, Option+D → · (Unicode Hex Input)",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "o",
+            "modifiers": { "mandatory": ["option"], "optional": ["any"] }
+          },
+          "to": [
+            { "key_code": "left_option", "modifiers": ["left_option"] },
+            { "key_code": "1" },
+            { "key_code": "d" },
+            { "key_code": "4" },
+            { "key_code": "1" },
+            { "key_code": "3" }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "d",
+            "modifiers": { "mandatory": ["option"], "optional": ["any"] }
+          },
+          "to": [
+            { "key_code": "left_option", "modifiers": ["left_option"] },
+            { "key_code": "0" },
+            { "key_code": "0" },
+            { "key_code": "b" },
+            { "key_code": "7" }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
