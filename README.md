@@ -67,3 +67,10 @@ defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool true
 ```
 
 The most impactful change for Vim users is the first command — after that, holding `h/j/k/l` will repeat as expected.
+
+## Packages for the nvim config
+
+```
+brew install gh fzf stylua ruff code-minimap
+npm install -g prettier eslint typescript-language-server
+```
